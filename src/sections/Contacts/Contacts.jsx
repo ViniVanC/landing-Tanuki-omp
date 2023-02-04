@@ -2,7 +2,13 @@ import React from "react";
 
 export const Contacts = () => {
   return (
-    <section className="section contacts" id="contacts">
+    <section
+      className="section contacts"
+      id="contacts"
+      style={{
+        background: 'url("images/contacts-bg.jpg") center/cover',
+      }}
+    >
       <div className="container">
         <div className="inner">
           <h2 className="title">Contacts</h2>

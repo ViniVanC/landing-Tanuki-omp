@@ -4,7 +4,11 @@ import { motion } from "framer-motion";
 
 export const Hi = () => {
   return (
-    <section id="hi" className="section hi">
+    <section
+      id="hi"
+      className="section hi"
+      style={{ background: 'url("images/hi-bg.jpg") center/cover' }}
+    >
       <div className="container">
         <div className="inner">
           <motion.h1
