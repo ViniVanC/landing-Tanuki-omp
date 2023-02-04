@@ -278,8 +278,11 @@ nav {
 
   .inner {
     display: flex;
-    flex-wrap: wrap;
     gap: 30px;
+
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+    }
   }
 
   p {
